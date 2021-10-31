@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  height: 100%;
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+}
+
+main{
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1{
+  text-align: $bs-body-text-align;
+}
+
+footer{
+  background-color: $light;
+  display: flex;
+  padding: 0.5em;
+  max-width: 100%;
+  margin: auto;
+}
+
+@media( max-width:576px){
+.row-cols-1 > * {
+  width: 80%
+}
+}
+
+.card{
+  border-radius:10px;
+
+}
